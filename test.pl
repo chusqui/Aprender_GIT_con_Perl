@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
+use 5.010;
 
 say_hello();
 
 sub say_hello {
-print “Hello, world.\n”;
+say “Hello, world.”;
 }
 
 __END__
